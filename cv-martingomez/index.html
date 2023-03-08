@@ -24,15 +24,35 @@
     <title>CV - MARTIN GOMEZ</title>
 </head>
 <body>
-    <div class="text-center">
-        <h1 class="display-4"> MARTIN GOMEZ</h1>
-        <h2> Desarrollador de Software - Administrador de Redes </h2>
-        <h2> Administrativo Contable </h2>        
 
-        <img id="foto" src="imagenes/mifoto.jpg" alt="Foto CV" class="center"/>
+    <!-- BARRA DE NAVEGACION -->
+    <div>
+      <header id="nav-wrapper">
+        <nav id="nav">
+          <div class="nav right">
+            <a href="#Inicio" class="nav-link active"><span class="nav-link-span"><span class="u-nav">Inicio</span></span></a>
+            <a href="#Bienvenidos" class="nav-link"><span class="nav-link-span"><span class="u-nav">Bienvenidos</span></span></a>
+            <a href="#ExperienciaLaboral" class="nav-link"><span class="nav-link-span"><span class="u-nav">Experiencia Laboral</span></span></a>
+            <a href="#contacto" class="nav-link"><span class="nav-link-span"><span class="u-nav">Contacto</span></span></a>
+          </div>
+        </nav>
+      </header>
     </div>
+    <!-- INICIO DE LAS SECCIONES -->
+    <main>
 
-    <div class="container-fluid">
+    <!-- DESARROLLO DEL CV -->
+    <section id="Inicio">
+      <div class="text-center">
+          <h1 class="display-4"> MARTIN GOMEZ</h1>
+          <h2> Desarrollador de Software - Administrador de Redes </h2>
+          <h2> Administrativo Contable </h2>        
+
+          <img id="foto" src="imagenes/mifoto.jpg" alt="Foto CV" class="center"/>
+      </div>
+    </section>
+    <section id="Bienvenidos">
+    <div style="margin-top: -250px" class="container-fluid">
         <div class="row justify-content-center text-center bg-primary ">
             <div class="col col-md-7 seccion-bienvenida">
                 <br>
@@ -98,8 +118,10 @@
           </div>
       </div>
 
+    </section>
+    <section id="ExperienciaLaboral">
 
-    <div class="text-center" style="padding-top: 6rem;">
+    <div style="margin-top: -75px" class="text-center" style="padding-top: 6rem;">
       <h1> Experiencia Laboral </h1>
       <p> Estas son algunas de las empresas en las que puse mis conocimientos a su servicio.</p>
     </div>
@@ -161,12 +183,13 @@
     </div>
 
      <!-- formulario de contacto en html y css -->  
-
-	<div class="contact_form">
+      </section>
+      <section id="contacto">
+	<div style="margin-top: -275px" class="contact_form">
 
 		<div class="formulario">			
       <h1>Formulario de contacto</h1>
-				<h3>Escríbenos y en breve me pondré en contacto contigo</h3>
+				<h3>Escríbeme y en breve me pondré en contacto contigo</h3>
 
 
 					<form  method="post">				
@@ -219,8 +242,10 @@
 						
 					</form>
 		</div>	
+  </section>
 	</div>
-
+  </main>
+  <!-- FIN DE LAS SECCIONES -->
   </div>
 </body>
 
@@ -271,7 +296,5 @@
   </div>
   <!-- End of .container -->
 </footer>
-
-
 
 </html>
